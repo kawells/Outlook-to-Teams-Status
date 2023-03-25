@@ -1,5 +1,5 @@
 # Outlook to Teams status
-Use your Outlook calendar events to set your Teams status text automatically using a Power Automate flow.
+Use your Outlook calendar events to set your Teams status message text automatically using a Power Automate flow.
 
 ## How it works
 Yes, Outlook already sets your *availability* automatically. However, you know how you can manually set that little text status message with an expiration date/time, kind of like back in the AIM days? Don't you wish you could automate that to show people when you're working remotely or show off some dreadful emo lyrics? Sure you do.
