@@ -11,4 +11,4 @@ This flow is triggered by any upcoming event in your Outlook calendar. Once trig
 ## How to use
 From your flows, select "Import package" and select the ZIP file. Update the connections for your account.
 
-Create a calendar event with a subject like "Status: Working from home". When the event is about to start, your Teams status message will automatically become "Working from home" and will clear itself when the event ends.
+Create a calendar event with a subject like "Status: Working from home" and set the start and end times. When the event is about to start, your Teams status message will automatically become "Working from home" and will clear itself when the event ends.
