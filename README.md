@@ -1,5 +1,5 @@
 # Outlook to Teams Status Message
-Use your Outlook calendar events to set your Teams status message text automatically using a Power Automate flow.
+Use your Outlook calendar events to set your Teams status message text *and* work location automatically using a Power Automate flow.
 
 ## How it works
 Yes, Outlook already sets your *availability* automatically. However, you know how you can manually set that little text status message with an expiration date/time, kind of like back in the AIM days? Don't you wish you could automate that to show people when you're working remotely or show off some dreadful emo lyrics? Sure you do.
@@ -11,4 +11,4 @@ This flow is triggered by any upcoming event in your Outlook calendar. Once trig
 ## How to use
 From your flows, select "Import package" and select the ZIP file. Update the connections for your account.
 
-Create a calendar event with a subject like "Status: Working from home" and set the start and end times. When the event is about to start, your Teams status message will automatically become "Working from home" and will clear itself when the event ends.
+Create a calendar event with a subject like "Status: Working from home" and set the start and end times. If working remote, add "Remote" to the body of the event. When the event is about to start, your Teams status message will automatically become "Working from home", your work location will be set to "Remote", and both your Teams status and work location will clear when the event ends.
